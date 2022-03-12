@@ -35,12 +35,12 @@ namespace Day15PracticeProblemsHashTableAndBST
             string hash2 = hash.Get("17");
             Console.WriteLine("2th index Value is : " + hash2);
 
-            string hash17 = Convert.ToString(hash.Remove("17"));
+            string hash17 = hash.Remove("17");
 
             Console.WriteLine("After Removing ");
 
             string hashremove = hash.Get("17");
-            Console.WriteLine(hashremove);
+            Console.WriteLine("17th index Value is : "+hashremove);
         }
     }
 }
