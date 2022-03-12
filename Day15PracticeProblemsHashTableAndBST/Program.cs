@@ -28,12 +28,19 @@ namespace Day15PracticeProblemsHashTableAndBST
             hash.Add("17", "avoidable");
             hash.Add("18", "situations");
 
-            string hash5 = hash.Get("10");
+            string hash5 = hash.Get("1");
             Console.WriteLine("5th index Value is : " + hash5);
 
            
-            string hash2 = hash.Get("18");
+            string hash2 = hash.Get("17");
             Console.WriteLine("2th index Value is : " + hash2);
+
+            string hash17 = Convert.ToString(hash.Remove("17"));
+
+            Console.WriteLine("After Removing ");
+
+            string hashremove = hash.Get("17");
+            Console.WriteLine(hashremove);
         }
     }
 }
